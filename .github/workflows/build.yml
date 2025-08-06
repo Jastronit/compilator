@@ -2,7 +2,7 @@ name: Build EXE with Nuitka
 
 on:
   push:
-    branches: [main]
+    branches: [scum]
   workflow_dispatch:
 
 jobs:
@@ -23,10 +23,10 @@ jobs:
 
     - name: Build EXE
       run: |
-        python -m nuitka --standalone --onefile main.py
+        python -m nuitka --standalone --onefile scum.py
 
     - name: Upload build artifact
       uses: actions/upload-artifact@v4
       with:
         name: compiled-exe
-        path: main.exe
+        path: scum.exe
