@@ -1,0 +1,15 @@
+{
+    "scan_interval": 8,
+    "zones": [
+        {
+            "asset": "/Game/ConZ_Files/BaseBuilding/BaseElements/BP_Base_Flag.BP_Base_Flag_C",
+            "radius": 5000,
+            "shape": "square"
+        },
+        {
+            "asset": "/Game/ConZ_Files/BaseBuilding/BaseElements/BP_Base_Flag_Supporter.BP_Base_Flag_Supporter_C",
+            "radius": 5000,
+            "shape": "square"
+        }
+    ]
+}
